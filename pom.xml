@@ -91,6 +91,13 @@
 			<version>2.3.9</version>
 		</dependency>
 
+		<!-- Starter Validation for Jakarta -->
+		<dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-validation</artifactId>
+            <version>${spring-boot.version}</version>
+        </dependency>
+
 		<!-- JJWT for JWT Authentication -->
 		<dependency>
 			<groupId>io.jsonwebtoken</groupId>
